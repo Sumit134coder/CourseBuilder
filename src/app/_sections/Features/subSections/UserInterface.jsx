@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import heroImage from "@/assets/images/home/UserInterface.svg";
 import icon1 from "@/assets/images/fourSquare.svg";
@@ -10,8 +9,7 @@ const UserInterface = () => {
     <div className="flex flex-col md:flex-row items-center justify-between gap-x-62">
       <Image
         src={heroImage}
-        alt="ClassManagement
-      "
+        alt="Illustration showing user interface designed for the classroom used by teachers and students in a classroom"
         width={500}
         height={500}
       />

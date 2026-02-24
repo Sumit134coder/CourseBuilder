@@ -4,7 +4,7 @@ import heroImage from "@/assets/images/home/classManagment.svg";
 
 const ClassManagement = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between gap-x-62">
+    <article className="flex flex-col md:flex-row items-center justify-between gap-x-62">
       <div>
         <h2 className=" text-dark-500 font-bold text-heading-600">
           <span className="text-primary-500">Class Management</span> Tools for Educators
@@ -17,12 +17,11 @@ const ClassManagement = () => {
       </div>
       <Image
         src={heroImage}
-        alt="ClassManagement
-      "
+        alt="Illustration showing class management tools used by teachers and students in a classroom"
         width={500}
         height={500}
       />
-    </div>
+    </article>
   );
 };
 
