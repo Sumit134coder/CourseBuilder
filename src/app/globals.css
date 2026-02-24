@@ -29,13 +29,27 @@ body {
   --color-dark-500: #2f327d;
   --color-dark-600: #5b5b5b;
   --color-dark-700: #010514cc;
+  --color-dark-800: #252641;
   --color-dark-900: #010514;
 
   /* --white-- */
   --color-white-100: #ffffffcc;
   --color-white-500: #ffffff;
 
+  /* ---font-weight--- */
+  --font-weight-400 : 400;
+  --font-weight-500 : 500;
+  --font-weight-600 : 600;
+  --font-weight-700 : 700;  
+
+
   /* ----text-sizing---- */
+  --text-body-75 : 18px;
+  --text-body-100 : 20px;
+  --text-body-200 : 22px;
+  --text-body-300 : 24px;
+  --text-body-400 : 26px;
+
   --text-heading-500 : 36px;
   --text-heading-600 : 40px;
 }
