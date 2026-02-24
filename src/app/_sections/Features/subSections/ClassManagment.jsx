@@ -4,10 +4,10 @@ import heroImage from "@/assets/images/home/classManagment.svg";
 
 const ClassManagement = () => {
   return (
-    <div>
+    <div className="flex flex-col md:flex-row items-center justify-between gap-x-62">
       <div>
-        <h2>
-          <span>Class Management</span> Tools for Educators
+        <h2 className=" text-dark-500 font-bold text-heading-600">
+          <span className="text-primary-500">Class Management</span> Tools for Educators
         </h2>
         <p>
           Class provides tools to help run and manage the class such as Class

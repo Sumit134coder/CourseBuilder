@@ -1,7 +1,10 @@
+import Features from "./_sections/Features/Features"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="text-dark-100">
+      <Features />
+    </div>
   )
 }
 
