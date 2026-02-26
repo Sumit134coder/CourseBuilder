@@ -20,9 +20,13 @@ body {
   /* -----COLORS---- */
   /* primary colors */
   --color-primary-100: #9dccff;
+  --color-primary-200: #29B9E7;
   --color-primary-500: #49bbbd;
 
   /* secondary colors */
+
+  /* tertiary colors */
+  --color-tertiary-100: #5B72EE;
 
   /* dark colors -- text */
   --color-dark-100: #696984;
