@@ -59,7 +59,6 @@ const SuccessMetric = ({
             <span key={i}>{char}</span>
           );
         })}
-
         {suffix && (
           <span
             style={{
