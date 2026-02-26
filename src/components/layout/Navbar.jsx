@@ -13,9 +13,9 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <header className="sticky top-0 w-full">
+    <header className="sticky top-0 w-full bg-white z-100 shadow">
       <nav
-        className="flex items-center justify-between px-[126px] py-[30px]"
+        className="flex items-center justify-between px-31.5 py-4"
         aria-label="Primary navigation"
       >
         <Link href="/" aria-label="Go to homepage">
