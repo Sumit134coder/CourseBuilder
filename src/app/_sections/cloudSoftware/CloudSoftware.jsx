@@ -7,28 +7,28 @@ const featuresData = [
     title: "Online Billing, Invoicing, & Contracts",
     description:
       "Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts",
-    cardIcon: <Calendar iconClass="text-white" />,
+    cardIcon: <Calendar iconClass="text-white h-8 w-8" />,
     accentClass: "bg-tertiary-100 ",
   },
   {
     title: "Easy Scheduling & Attendance Tracking",
     description:
       "Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance",
-    cardIcon: <Invoice iconClass="text-white" />,
+    cardIcon: <Invoice iconClass="text-white h-8 w-8" />,
     accentClass: "bg-primary-500 text-secondary-500",
   },
   {
     title: "Customer Tracking",
     description:
       "Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization ",
-    cardIcon: <PeopleGroup iconClass="text-white" />,
+    cardIcon: <PeopleGroup iconClass="text-white h-8 w-8" />,
     accentClass: "bg-primary-200",
   },
 ];
 
 const CloudSoftware = () => {
   return (
-    <div>
+    <section className="px-12">
       <div className="text-center">
         <h2
           id="Cloud Software"
@@ -45,7 +45,7 @@ const CloudSoftware = () => {
       <div>
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
           {featuresData.map((feature, index) => (
-            <li key={index}>
+            <li key={index} className="min-h-107 h-auto">
               <FeatureCard
                 title={feature.title}
                 description={feature.description}
@@ -56,7 +56,7 @@ const CloudSoftware = () => {
           ))}
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 
