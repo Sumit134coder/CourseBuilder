@@ -10,7 +10,7 @@ const Features = () => {
       <header className="text-center">
         <h2
           id="features-heading"
-          className="header-2-tone font-bold text-heading-500"
+          className="header-2-tone font-bold text-large-500"
         >
           Our <span className="text-primary-500">Features</span>
         </h2>

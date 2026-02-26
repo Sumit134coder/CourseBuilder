@@ -14,7 +14,7 @@ const UserInterface = () => {
         height={500}
       />
       <div>
-        <h2 className=" text-dark-500 font-bold text-heading-600">
+        <h2 className=" text-dark-500 font-bold text-large-600">
           A <span className="text-primary-500">user interface</span> designed
           for the classroom
         </h2>

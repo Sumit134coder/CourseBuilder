@@ -6,7 +6,7 @@ const Tools = () => {
     <article className="flex flex-col md:flex-row items-center justify-between gap-x-16">
 
       <div className="max-w-xl">
-        <h3 className="text-dark-500 font-bold text-heading-600 leading-tight">
+        <h3 className="text-dark-500 font-bold text-large-600 leading-tight">
           <span className="text-primary-500">Tools</span> for Teachers and Learners
         </h3>
 

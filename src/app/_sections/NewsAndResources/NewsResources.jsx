@@ -41,7 +41,7 @@ const NewsResources = () => {
   return (
     <section className="mx-[200px]">
       <div className="text-center">
-        <h2 className="text-dark-500 text-heading-500">
+        <h2 className="text-dark-500 text-large-500">
           Latest News and Resources
         </h2>
         <p>See the developments that have occurred to TOTC in the world</p>

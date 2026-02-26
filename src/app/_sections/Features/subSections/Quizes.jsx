@@ -16,7 +16,7 @@ const Quizes = () => {
       </div>
 
       <div className="max-w-xl">
-        <h3 className="text-dark-500 font-bold text-heading-600 leading-tight">
+        <h3 className="text-dark-500 font-bold text-large-600 leading-tight">
           Assessments, <br />
           <span className="text-primary-500">Quizzes</span>, Tests
         </h3>

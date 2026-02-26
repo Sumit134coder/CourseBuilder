@@ -13,7 +13,7 @@ const Discussions = () => {
         height={500}
       />
       <div>
-        <h3 className=" text-dark-500 font-bold text-heading-600">
+        <h3 className=" text-dark-500 font-bold text-large-600">
           One-on-One <span className="text-primary-500">Discussions</span>
         </h3>
         <p>
