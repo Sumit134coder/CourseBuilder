@@ -20,13 +20,14 @@ body {
   /* -----COLORS---- */
   /* primary colors */
   --color-primary-100: #9dccff;
-  --color-primary-200: #29B9E7;
+  --color-primary-200: #29b9e7;
+  --color-primary-300: #23bdeee5;
   --color-primary-500: #49bbbd;
 
   /* secondary colors */
 
   /* tertiary colors */
-  --color-tertiary-100: #5B72EE;
+  --color-tertiary-100: #5b72ee;
 
   /* dark colors -- text */
   --color-dark-100: #696984;
@@ -41,10 +42,10 @@ body {
   --color-white-500: #ffffff;
 
   /* ---font-weight--- */
-  --font-weight-400 : 400;
-  --font-weight-500 : 500;
-  --font-weight-600 : 600;
-  --font-weight-700 : 700;  
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
 
   /* ----text-sizing---- */
   --text-body-75: 18px;
@@ -57,7 +58,7 @@ body {
   --text-large-400: 32px;
   --text-large-500: 36px;
   --text-large-600: 40px;
-  --text-large-700: 40px;
+  --text-large-700: 44px;
   --text-large-800: 48px;
   --text-large-1000: 96px;
 }
@@ -76,18 +77,15 @@ body {
 }
 
 @layer utilities {
-
-  .header-2-tone{
-    @apply text-dark-500
+  .header-2-tone {
+    @apply text-dark-500;
   }
 
-   .header-2-tone span{
-    @apply text-primary-500
+  .header-2-tone span {
+    @apply text-primary-500;
   }
 
-
-
-  .link{
+  .link {
     @apply transition hover:opacity-90;
   }
 
@@ -109,7 +107,17 @@ body {
 }
 
 @layer components {
-  .gradient-text{
-    @apply bg-gradient-to-r from-[#136CB5] to-primary-500 bg-clip-text text-transparent
+  .gradient-text {
+    @apply bg-gradient-to-tr from-[#136CB5] to-primary-500 bg-clip-text text-transparent bg-size-[200%] transition duration-500;
+    animation: moveGradient 2s linear infinite;
+  }
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
   }
 }
