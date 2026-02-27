@@ -1,4 +1,5 @@
 import { VideoCard } from "@/components/home/VideoCard";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -20,6 +21,23 @@ const About = () => {
           <VideoCard title="FOR INSTRUCTORS" linkLabel="Start a class today" />
           <VideoCard title="FOR STUDENTS" linkLabel="Enter access code" />
         </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center px-50">
+        <div>
+          <h4 className="header-2-tone text-large-500 font-500">
+            Everything you can do in a physical classroom,{" "}
+            <span>you can do with TOTC</span>
+          </h4>
+          <p className="my-8">
+            TOTC’s school management software helps traditional and online
+            schools manage scheduling, attendance, payments and virtual
+            classrooms all in one secure cloud-based system.
+          </p>
+          <Link href="#" className="underline mt-10">
+            Learn More
+          </Link>
+        </div>
+        <div>Video</div>
       </div>
     </section>
   );

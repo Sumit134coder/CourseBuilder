@@ -108,7 +108,7 @@ body {
 
 @layer components {
   .gradient-text {
-    @apply bg-gradient-to-tr from-[#136CB5] to-primary-500 bg-clip-text text-transparent bg-size-[200%] transition duration-500;
+    @apply bg-linear-to-tr from-[#136CB5] via-primary-500 to-[#136CB5] bg-clip-text text-transparent bg-size-[200%] transition duration-500;
     animation: moveGradient 2s linear infinite;
   }
 }
