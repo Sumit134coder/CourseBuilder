@@ -31,6 +31,8 @@ body {
 
   /* dark colors -- text */
   --color-dark-100: #696984;
+  --color-dark-200: #83839A;
+  --color-dark-400: #B2B3CF;
   --color-dark-500: #2f327d;
   --color-dark-600: #5b5b5b;
   --color-dark-700: #010514cc;
