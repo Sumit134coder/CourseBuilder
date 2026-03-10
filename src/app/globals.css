@@ -43,6 +43,10 @@ body {
   --color-white-100: #ffffffcc;
   --color-white-500: #ffffff;
 
+
+  /* ----green----- */
+  --color-success-500 : #33EFA0
+
   /* ---font-weight--- */
   --font-weight-400: 400;
   --font-weight-500: 500;
@@ -113,6 +117,37 @@ body {
     @apply bg-linear-to-tr from-[#136CB5] via-primary-500 to-[#136CB5] bg-clip-text text-transparent bg-size-[200%] transition duration-500;
     animation: moveGradient 2s linear infinite;
   }
+}
+
+.about_video_container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.about_video_container::after{
+  content: "";
+  border-radius: 10%;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  width: 10rem;
+  height: 10rem;
+  z-index: -1;
+  background:  var(--color-primary-300);
+  pointer-events: none;
+}
+
+.about_video_container::before{
+  content: "";
+  border-radius: 10%;
+  position: absolute;
+  bottom: -1rem;
+  right: -1rem;
+  width: 10rem;
+  height: 10rem;
+  background: #33EFA0;
+  pointer-events: none;
 }
 
 @keyframes moveGradient {

@@ -1,10 +1,11 @@
 import { VideoCard } from "@/components/home/VideoCard";
+import VideoPlayerCard from "@/components/home/VideoPlayerCard";
 import Link from "next/link";
 import React from "react";
 
 const About = () => {
   return (
-    <section>
+    <section className="space-y-40">
       <div className="px-70">
         <div className="text-center">
           <h2 className="header-2-tone text-large-700 font-700">
@@ -37,7 +38,9 @@ const About = () => {
             Learn More
           </Link>
         </div>
-        <div>Video</div>
+        <div className="about_video_container">
+          <VideoPlayerCard src="https://videos.ctfassets.net/spoqsaf9291f/1EL7UZIXfcqngxsNSbL8tR/a35c698ae3499345013792fe78804a38/web-homepage-hero-1920x1200_final.mp4" alt="Teacher teaching Students" className="" />
+        </div>
       </div>
     </section>
   );
