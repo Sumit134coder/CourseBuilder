@@ -3,6 +3,7 @@ import CloudSoftware from "./_sections/cloudSoftware/CloudSoftware";
 import Features from "./_sections/Features/Features";
 import NewsResources from "./_sections/NewsAndResources/NewsResources";
 import OurSuccess from "./_sections/ourSuccess/OurSuccess";
+import Testimonials from "./_sections/Testimonial";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <CloudSoftware />
       <About />
       <Features />
+      <Testimonials />
       <NewsResources />
     </div>
   );
