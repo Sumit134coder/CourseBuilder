@@ -23,7 +23,7 @@ const About = () => {
           <VideoCard title="FOR STUDENTS" linkLabel="Enter access code" />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center px-50">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center px-50">
         <div>
           <h4 className="header-2-tone text-large-500 font-500">
             Everything you can do in a physical classroom,{" "}
