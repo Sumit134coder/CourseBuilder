@@ -43,6 +43,9 @@ body {
   --color-white-100: #ffffffcc;
   --color-white-500: #ffffff;
 
+  /* --gray--- */
+  --color-gray-300 : #5F5F7E;
+
 
   /* ----green----- */
   --color-success-500 : #33EFA0
@@ -125,6 +128,16 @@ body {
     @apply bg-linear-to-tr from-[#136CB5] via-primary-500 to-[#136CB5] bg-clip-text text-transparent bg-size-[200%] transition duration-500;
     animation: moveGradient 2s linear infinite;
   }
+}
+
+.testimonial_content_card::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 100%;
+  background: #F67766;
 }
 
 .about_video_container {

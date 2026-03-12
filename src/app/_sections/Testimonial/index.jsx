@@ -1,4 +1,4 @@
-import React from "react";
+import TestimonialContainer from "@/components/common/TestimonialContainer";
 
 const Testimonials = () => {
   return (
@@ -24,7 +24,9 @@ const Testimonials = () => {
           Write your assessment
         </button>
       </div>
-      <div></div>
+      <div>
+        <TestimonialContainer />
+      </div>
     </section>
   );
 };
