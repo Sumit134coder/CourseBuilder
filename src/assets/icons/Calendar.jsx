@@ -10,7 +10,7 @@ const Calendar = ({iconClass = ""}) => {
       xmlns="http://www.w3.org/2000/svg"
       className={iconClass}
     >
-      <g clip-path="url(#clip0_10_918)">
+      <g clipPath="url(#clip0_10_918)">
         <path
           d="M12.0005 0C11.0536 0 10.2861 0.767511 10.2861 1.71432V5.14285H13.7147V1.71432C13.7147 0.767511 12.9472 0 12.0005 0Z"
           fill="currentColor"
